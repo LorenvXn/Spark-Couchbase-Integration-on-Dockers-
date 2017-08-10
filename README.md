@@ -1,6 +1,6 @@
 # Spark-Couchbase-Integration-on-Dockers-
 
-<i> Soon - some kewl Spark Streaming & Couchbase example ... but for now, setting up the environment and testing some Scala code </i>
+<i> Soon - some kewl Spark Streaming & Couchbase example ... but for now, setting up the environment and testing some Scala code ... Make sure you have dem gigs and rams!  </i>
 
 [Environment setup]
 
