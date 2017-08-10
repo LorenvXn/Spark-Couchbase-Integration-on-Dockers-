@@ -79,7 +79,7 @@ root@tron#docker network inspect couchspark
 
 ```
 
-From Scala (Sprk container), run the following Scala lines from spark-shell, to check the environment has been set-up properly:
+Now, in the Spark container, run the following Scala lines from spark-shell, to check if the environment has been set-up properly:
 
 <i> Bucket beer-sample will be used as example</i>
 ```
@@ -105,7 +105,7 @@ val beers = sql1.read.couchbase(schemaFilter=EqualTo("type", "beer"))
 
 ```
 
-Good, so if no errors so far, still from spark-shell, you can check if all good:
+If no errors so far, still from spark-shell, you can check if all good:
 ```
 scala> beers.printSchema()
 root
@@ -176,7 +176,8 @@ cbq> SELECT `brewery_id`,`description`,`name` FROM `beer-sample` WHERE  `type` =
 
 ```
 
-Environment successfully set up!
+Environment successfully implemented!
+
 For the next time, we will find some usefulness for com.couchbase.spark.streaming._ 
 
 From our spark Container:
