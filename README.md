@@ -91,8 +91,7 @@ import org.apache.spark.sql.sources.EqualTo
 import org.apache.spark.sql._
 
 
- val sparkConf = new SparkConf()
-                .setAppName("NananaaBatmanAndCouchbase!")
+ val sparkConf = new SparkConf().setAppName("NananaaBatmanAndCouchbase!")
                 .setMaster("local[*]")
                 .set("com.couchbase.bucket.beer-sample", "")
                 .set("com.couchbase.nodes", "172.19.0.3")
@@ -105,7 +104,7 @@ val beers = sql1.read.couchbase(schemaFilter=EqualTo("type", "beer"))
 
 ```
 
-If no errors so far, still from spark-shell, you can check if all good:
+If no errors so far, still from spark-shell, you can check if uou actually have access to the bucket:
 ```
 scala> beers.printSchema()
 root
