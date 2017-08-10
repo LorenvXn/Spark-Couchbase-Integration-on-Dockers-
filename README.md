@@ -4,9 +4,9 @@
 
 [Environment setup]
 
-- Run perl script couchy.pl to create couchbase container.
+- Run perl script ``couchy.pl`` to create couchbase container.
 
-- Run perl script sparkling.pl to create Spark Container. Connector added in below example:
+- Run perl script ``sparkling.pl`` to create Spark Container. Connector added in below example:
 
 
 ``bash-4.1#``
