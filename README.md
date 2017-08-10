@@ -9,7 +9,7 @@
 - Run perl script ``sparkling.pl`` to create Spark Container.
 
 
-You will be prompted to ``bash-4.1#``
+After running the script for Spark, you will be prompted to ``bash-4.1#``
 
 Start Spark Shell, with Couchbase connector ``com.couchbase.client:spark-connector_2.10:1.0.0``
 
