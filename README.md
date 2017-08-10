@@ -104,7 +104,7 @@ val beers = sql1.read.couchbase(schemaFilter=EqualTo("type", "beer"))
 
 ```
 
-If no errors so far, still from spark-shell, you can check if uou actually have access to the bucket:
+If no errors so far, still from spark-shell, you can check if you actually have access to the bucket:
 ```
 scala> beers.printSchema()
 root
@@ -122,7 +122,7 @@ root
  |-- updated: string (nullable = true)
 ```
 
-and let's select something... 
+and let's select some beers...  
 
 ```
 
