@@ -7,3 +7,9 @@ cut -f1 -d ',' | sed 's/["]//g' `
 echo $IP
 
 python -m webbrowser http://$IP:8091
+
+##################################################################
+# if the container hahaa is up and running
+# the scripts find the IP of the container
+# and will open the couchbase application that runs on port 8091 in a browser
+###
