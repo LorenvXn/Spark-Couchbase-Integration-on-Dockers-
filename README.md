@@ -186,5 +186,5 @@ scala> import com.couchbase.spark.streaming._
 import com.couchbase.spark.streaming._
 ```
 
-But first thing first, we gon' do some replication: https://github.com/Satanette/Couchbase-replication-to-ElasticSearch-and-Spark 
+But first thing first, we gon' do some replication: [Couchbase replication to Elasticsearch, and Spark]https://github.com/Satanette/Couchbase-replication-to-ElasticSearch-and-Spark 
 
